@@ -1,11 +1,11 @@
 pipeline {
   environment {
-    registry = "shreyasm29/ise3"
+    registry = "shreyasm29/javaprogram"
     registryCredential = 'dockerid'
     dockerImage = ''
   }
   agent any
-  
+ 
   stages {
     stage('Build Image') {
       steps {
